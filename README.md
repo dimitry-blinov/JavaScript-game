@@ -1,1 +1,1 @@
-# JavaScript-game-of-the-couple
+# Game of the couple
