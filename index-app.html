@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <title>Игра "Пары"</title>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+  <link href="./css/style.css" rel="stylesheet">
+  <script defer src="./js/game-app.js"></script>
+
+</head>
+<body>
+
+<div class="container-menu">
+  <h1 class="title-menu">Добро пожаловать в игру "Пары"</h1>
+  <p class="description">Чтобы начать игру введите чётные числа по горизонтали/вертикали</p>
+  <div class="group">
+    <div class="group-option">
+      <h2 class="title-option">По горизонтали</h2>
+      <label for="horiz"></label>
+      <input class="quantity-horizontal" id="horiz" min="2" type="number" value="2">
+    </div>
+    <div class="group-option">
+      <h2 class="title-option">По вертикали</h2>
+      <label for="vert"></label>
+      <input class="quantity-vert" min="2" id="vert" type="number" value="2">
+    </div>
+  </div>
+  <div class="group-btn">
+    <button class="btn btn-start">Начать игру</button>
+    <button class="btn btn-clean">Очистить</button>
+  </div>
+
+</div>
+
+<div class="container"></div>
+
+</body>
+</html>
